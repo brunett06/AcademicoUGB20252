@@ -6,5 +6,7 @@
         public string Nome { get; set; }
         public string Telefone { get; set; }
         public string Email { get; set; }
+        public int InstituicaoId { get; set; }
+        public Instituicao? InstituicaoOrigem { get; set; } //o ponto de interrogação indica que pode ser nulo
     }
 }
